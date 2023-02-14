@@ -1,0 +1,34 @@
+[
+    {
+        "id":1,
+        "first_title":"Collaborate and ship designs faster",
+        "mid_title":"Work on files together in real-time, and review and get feedback without the back and forth.",
+        "bottom_title1":"Produce more ads without spending more time",
+        "bottom_title2":"Get notified about comments and status updates",
+        "bottom_title3":"Have one single source of truth for all design",
+        "img_link":"https://res.cloudinary.com/dwvczf9nb/image/upload/v1676199876/Frame_hxarjt.png",
+        "pp_img":""
+    },
+
+    {
+        "id":2,
+        "first_title":"Build impactful creatives",
+        "mid_title":"Track all changes made in a glance, add sticky notes and get the best minds on your team to work together.",
+        "bottom_title1":"“Collab helps us to organize our work professionally and effectively”",
+        "bottom_title2":"Robert Mayar - Founder of Airbnb",
+        "bottom_title3":"Have one single source of truth for all design",
+        "img_link":"https://res.cloudinary.com/dwvczf9nb/image/upload/v1676199876/Frame-1_sqydfr.png",
+        "pp_img":"https://res.cloudinary.com/dwvczf9nb/image/upload/v1676207448/IMAGE_x66jtu.png"
+    } ,
+  
+    {
+        "id":3,
+        "first_title":"Collaborate and ship designs faster",
+        "mid_title":"Work on files together in real-time, and review and get feedback without the back and forth.",
+        "bottom_title1":"Produce more ads without spending more time",
+        "bottom_title2":"https://res.cloudinary.com/dwvczf9nb/image/upload/v1676376963/Frame_lkndtj.png",
+        
+        "img_link":"https://res.cloudinary.com/dwvczf9nb/image/upload/v1676199876/Frame-2_fkuzw7.png",
+        "pp_img":""
+    }
+]

@@ -1,0 +1,60 @@
+.BubbleJob{
+    margin-top: 192px;
+}
+
+.BubbleJob h1{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 44px;
+line-height: 56px;
+text-align: center;
+letter-spacing: 1.44px;
+
+color: #080829;
+
+}
+
+.BubbleJob div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BubbleJob div div{
+    flex-direction: column;
+    margin: 0 84px 0 56px;
+}
+
+.BubbleJob div div h1{
+    margin: 34px 0;
+    max-width: 718px;
+    text-align: start;
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px;
+/* or 149% */
+
+letter-spacing: 0.64px;
+
+color: #080829;
+
+}
+
+.BubbleJob div div img{
+    align-self:flex-start
+}
+
+
+.BubbleJob div div p{
+    align-self: flex-start;
+}
+
+.bracket1{
+    align-self:flex-start
+}
+.bracket2{
+    align-self:flex-end
+}

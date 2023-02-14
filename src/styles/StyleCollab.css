@@ -1,0 +1,12 @@
+.collab div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.collab{
+    margin-top: 177px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 82px;
+}

@@ -1,0 +1,36 @@
+.collabcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.collabcard img{
+    width: 340px;
+}
+
+.collabcard h1{
+    margin: 39px 0 20px;
+
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 34px;
+letter-spacing: 0.56px;
+
+color: #080829;
+}
+
+.collabcard p{
+    width: 334px;
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 29px;
+letter-spacing: 0.36px;
+
+color: #545479;
+}

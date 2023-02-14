@@ -1,0 +1,24 @@
+.nav-link{
+    padding:0 30px !important;
+    
+}
+.navbar {
+    padding:0 90px;
+    margin-top: 20px;
+    
+}
+.navbar-nav{
+    margin-left: 120px;
+}
+
+
+
+
+.searchButton button {
+    padding: 10px 30px;
+}
+/* <nav className="navbar navbar-expand-lg bg-body-tertiary" >
+<div className="container-fluid main-head ">
+  <a className="navbar-brand" href="#">
+    <img src={logo} alt="" />
+  </a>  */

@@ -1,0 +1,22 @@
+[
+    {
+        "id":1 ,
+        "image": "https://res.cloudinary.com/dwvczf9nb/image/upload/v1676378784/IMAGE_xzzt05.png" ,
+        "title": "Connect with your team" ,
+        "body": "Collaborate on designs in multiple ways--by commenting, co-working, chatting and jumping on quick huddles."
+    }
+    ,
+    {
+        "id":2 ,
+        "image": "https://res.cloudinary.com/dwvczf9nb/image/upload/v1676378784/IMAGE-2_hfoihs.png" ,
+        "title": "Build high-converting ads" ,
+        "body": "Use different formats and pre-built templates, and make marketing creatives without starting from scratch."
+    }
+    ,
+    {
+        "id":3 ,
+        "image": "https://res.cloudinary.com/dwvczf9nb/image/upload/v1676378784/IMAGE-1_wonruv.png" ,
+        "title": "Organize and share" ,
+        "body": "Set up folders, manage permissions, vote on creatives and time-box work with Collab."
+    }
+]
