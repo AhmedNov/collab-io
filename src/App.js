@@ -13,13 +13,13 @@ function App() {
   return (
     <>
     
-    <Navbar />
+    {/* <Navbar />
 
     <FreeTrial />
     
     <Template />
     
-    <Collab/>
+    <Collab/> */}
 
     <BubbleJob/>
     
