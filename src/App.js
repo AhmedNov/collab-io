@@ -1,5 +1,6 @@
 
 import React, {useEffect} from 'react';
+
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap'
 import './App.css';
@@ -12,6 +13,7 @@ import  Navbar  from './components/Navbar';
 
 import Collab from './components/Collab';
 import BubbleJob from './components/BubbleJob';
+import Integrates from './components/İntegrates'
 
 
 function App() {
@@ -22,15 +24,19 @@ function App() {
   return (
     <>
     
-     <Navbar  />
+      <Navbar  />
 
-    <FreeTrial data-aos="fade-up"/>
+    <FreeTrial />
     
-    <Template data-aos="fade-up"/>
+    <Template />
     
     <Collab/> 
 
-    <BubbleJob/>
+    {/* <BubbleJob/>  */}
+
+    <Integrates/>
+
+    
 
     
     

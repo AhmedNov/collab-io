@@ -1,0 +1,40 @@
+
+
+.top-integrate{
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.integrate{
+    flex-direction: column;
+   align-items:center;
+   
+}
+
+
+.top-integrate div {
+    display:flex;
+    justify-content: center;
+    
+}
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+ 
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor:pointer
+  }
+
+  .second{
+    transform: translateY(-20px);
+  }
