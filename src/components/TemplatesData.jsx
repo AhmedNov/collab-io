@@ -4,7 +4,7 @@ import "../styles/StyleTemplate.css";
 const TemplatesData = ({ basliq, mid, bottom1, bottom2, bottom3, imgLink }) => {
   return (
     <>
-      <div className="temp1">
+      <div className="temp1"data-aos="fade-down">
         <div className="container mt-5">
           <div className="row d-flex">
             <div className=" img-temp col-12 col-md-6 col-lg-7">

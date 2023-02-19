@@ -7,7 +7,7 @@ import collab from '../collab.json'
 
 const Collab = () => {
   return (
-    <div className='collab'>
+    <div className='collab'data-aos="fade-down">
                <h1>Collab is simple, fast and fun</h1> 
 
     

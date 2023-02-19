@@ -11,7 +11,7 @@ import img8 from "../assets/features/img8.svg";
 
 const Features = () => {
   return (
-    <div className="features">
+    <div className="features" data-aos="fade-down">
       <div className="container">
         <div className="row mt-5">
           <div className="col-12">
@@ -24,7 +24,7 @@ const Features = () => {
             </div>
           </div>
         </div>
-        <div className="row mt-5">
+        <div className="row mt-5" data-aos="fade-down">
           <div className="col-12 col-md-3 mt-5 top-side">
           <img src={img1} alt="" />
            <p>Live Collaboration</p>

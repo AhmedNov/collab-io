@@ -35,6 +35,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 30px;
 line-height: 45px;
+/* height: 180px; */
 /* or 149% */
 
 letter-spacing: 0.64px;
@@ -48,7 +49,7 @@ color: #080829;
 }
 
 
-.BubbleJob div div p{
+.BubbleJob div div h5{
     align-self: flex-start;
 }
 
@@ -68,11 +69,13 @@ color: #080829;
     border-color: transparent;
     background-color: #fff;
 }
-.next , .prev {
+.left-arrow , .right-arrow {
     width: 2rem;
     height: 2rem;
 }
-
+.section-center{
+    position: relative;
+}
 article {
     position: absolute;
     top: 0;
@@ -92,3 +95,11 @@ article {
   article.nextSlide {
     transform: translateX(100%);
   }
+
+  @media(max-width:768px) {
+
+    .bracket1 , .bracket2 {
+        display:none ;
+    }
+    
+  } 

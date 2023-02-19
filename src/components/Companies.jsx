@@ -9,7 +9,7 @@ import logo6 from  '../assets/companies-svg/logo6.svg'
 const Companies = () => {
   return (
     <>
-    <div className="section">
+    <div className="section" data-aos="fade-down">
 
     <div className="header2 ">
       <div className="container">

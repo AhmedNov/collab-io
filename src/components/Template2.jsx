@@ -10,7 +10,7 @@ const Template2 = ({
   ppimg,
 }) => {
   return (
-    <div className="temp1">
+    <div className="temp1"data-aos="fade-down">
       <div className="container mt-5">
         <div className="row d-flex">
           <div className="  col-12 col-md-6 col-lg-7">

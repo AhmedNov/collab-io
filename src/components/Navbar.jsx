@@ -4,9 +4,9 @@ import "../styles/StyleNavbar.css";
 
 export const Navbar = () => {
   return (
-    <>
+    <div data-aos="fade-down">
       <nav className="navbar navbar-expand-lg bg-body-tertiary d-flex ">
-        <div className="container-fluid main-head ">
+        <div className="container-fluid main-head "data-aos="fade-up">
           <a className="navbar-brand" href="#"></a>
           <img src={logo} alt="" />
           <button
@@ -57,7 +57,7 @@ export const Navbar = () => {
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 };
 

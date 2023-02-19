@@ -7,7 +7,7 @@ const Templates = () => {
 
   return (
     
-   <div className='main-temp'>
+   <div className='main-temp' >
     {
       tempData.map(work => work.id%2 ? (
 
