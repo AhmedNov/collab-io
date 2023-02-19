@@ -1,0 +1,39 @@
+.challenge{
+    background-color: #080829;
+    margin-top: 150px;
+}
+
+.challenge h2 {
+    display: flex;
+    font-size: 56px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+
+}
+
+.half-1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.half-2{
+    display: flex;
+    justify-content: flex-end;
+}
+.challenge-bottom a {
+    border-radius: 14px;
+    padding: 15px 30px 20px 30px;
+    margin-right: 45px;
+    background: #3F53D8;
+    color: #fff;
+    border-color: #3F53D8;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.challenge-bottom {
+    text-align: center;
+}

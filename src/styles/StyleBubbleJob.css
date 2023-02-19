@@ -75,6 +75,7 @@ color: #080829;
 }
 .section-center{
     position: relative;
+    height: 950px;
 }
 article {
     position: absolute;

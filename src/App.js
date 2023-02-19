@@ -14,6 +14,7 @@ import  Navbar  from './components/Navbar';
 import Collab from './components/Collab';
 import BubbleJob from './components/BubbleJob';
 import Integrates from './components/İntegrates'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -32,9 +33,11 @@ function App() {
     
     <Collab/> 
 
-    {/* <BubbleJob/>  */}
+    <BubbleJob/> 
 
     <Integrates/>
+
+    <Footer />
 
     
 

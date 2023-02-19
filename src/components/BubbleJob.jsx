@@ -6,6 +6,7 @@ import robert from "../assets/img/robert.svg";
 import { BiRightArrowAlt } from "react-icons/bi";
 import { BiLeftArrowAlt } from "react-icons/bi";
 import { comment } from "../comment.js";
+import Integrate from "../components/İntegrates"
 
 import "../styles/StyleBubbleJob.css";
 
@@ -33,6 +34,7 @@ const BubbleJob = () => {
   }, [currentIndex]);
 
   return (
+
     <div>
       {/* <div className='BubbleJob'>
         <h1>Hear what teams around the world <br /> saying about Collab</h1>
@@ -73,7 +75,8 @@ const BubbleJob = () => {
           }
 
           return (
-            <article className={position} key={id}>
+            <div>
+               <article className={position} key={id}>
               <div className="BubbleJob" data-aos="fade-down">
                 <h1>
                   Hear what teams around the world <br /> saying about Collab
@@ -110,8 +113,10 @@ const BubbleJob = () => {
                   </div>
                 </div>
               </div>
-              
+            
             </article>
+            </div>
+           
           );
         })}
       </div>
