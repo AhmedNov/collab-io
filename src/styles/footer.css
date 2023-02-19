@@ -37,3 +37,47 @@
 .challenge-bottom {
     text-align: center;
 }
+
+
+.top-footer {
+    margin-top: 120px;
+}
+
+
+.right-footer {
+    justify-content: space-around;
+   
+}
+.right-footer h5{
+    text-transform: uppercase;
+}
+
+.right-footer a{
+    text-decoration: none;
+    color: #000;
+    margin: 15px 0;
+
+}
+
+.bottom-footer {
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.bottom-footer p {
+    font-size: 16px;
+}
+
+
+@media (max-width:768px) {
+
+    .left-footer  {
+        display: none;
+    }
+    
+}
+
+
+.social a{
+    margin: 10px 10px;
+
+}
