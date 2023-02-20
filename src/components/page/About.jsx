@@ -2,7 +2,9 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div>Abo4400004ut</div>
+    <div>
+      
+    </div>
   )
 }
 

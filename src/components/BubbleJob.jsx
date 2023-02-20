@@ -77,7 +77,7 @@ const BubbleJob = () => {
           return (
             <div>
                <article className={position} key={id}>
-              <div className="BubbleJob" data-aos="fade-down">
+              <div className="BubbleJob" data-aos="fade-down"data-aos-delay="700">
                 <h1>
                   Hear what teams around the world <br /> saying about Collab
                 </h1>

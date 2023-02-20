@@ -114,7 +114,7 @@ const İntegrates = () => {
           modules={[Autoplay, FreeMode, Navigation]}
           className="mySwiper"
         >
-          <div className="top-integrate d-flex row mt-2  "data-aos="fade-down">
+          <div className="top-integrate d-flex row mt-2  "data-aos="fade-down" data-aos-delay="500">
           <SwiperSlide>
               <a target="_blank" href="https://discord.com/">
                 {" "}
@@ -180,24 +180,24 @@ const İntegrates = () => {
       </div>
       <div className="title-article">
         <h3 className=""  data-aos="fade-down">Read latest articles of Collab</h3>
-        <div className="img-area row " data-aos="fade-down" >
-            <div className="col-12 col-md-4 col-lg-4 mt-3 flex-column" ><img src={photo1} alt="" />
-            <div className="flex-column branding">
+        <div className="img-area row " >
+            <div className="col-12 col-md-4 col-lg-4 mt-3 flex-column" data-aos="fade-down" data-aos-delay="300"><img src={photo1} alt="" />
+            <div className="flex-column branding" data-aos="fade-down">
               <p>Branding</p>
               <h5>Branding with personality: <br/>What makes you stand out</h5>
               <div className="line"></div>
               <span className="data"> April 22, 2022 . 5 min read</span>
             </div>
             </div>
-            <div className="col-12 col-md-4 col-lg-4 mt-3 flex-column" ><img src={photo2} alt="" />
-            <div className="flex-column busines">
+            <div className="col-12 col-md-4 col-lg-4 mt-3 flex-column"  data-aos="fade-down"data-aos-delay="300"><img src={photo2} alt="" />
+            <div className="flex-column busines" data-aos="fade-down">
               <p>Business</p>
               <h5>Is the generic visual brand guide outdated?</h5>
               <div className="line"></div>
               <span className="data"> April 22, 2022 . 8 min read</span>
             </div>
             </div>
-            <div className="col-12 col-md-4 col-lg-4 mt-3 flex-column" ><img src={photo3} alt="" /><div className="flex-column startup">
+            <div className="col-12 col-md-4 col-lg-4 mt-3 flex-column"  data-aos="fade-down"data-aos-delay="300"><img src={photo3} alt="" /><div className="flex-column startup" data-aos="fade-down">
               <p>Startup</p>
               <h5>30 ads that made our heads turn: Making ads that convert</h5>
               <div className="line"></div>
