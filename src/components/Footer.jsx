@@ -36,10 +36,10 @@ const Footer = () => {
       </div>
       <div className=" container footer d-flex flex-column">
         <div className="top-footer d-flex">
-          <div className="left-footer col-12 col-md-5">
+          <div className="left-footer col-12 col-md-5" data-aos="fade-left">
             <img src={logo} alt="" />
           </div>
-          <div className="right-footer col-12 col-md-7 d-flex">
+          <div className="right-footer col-12 col-md-7 d-flex"data-aos="fade-right">
             <div className="  d-flex flex-column">
               <h5>Quick Links</h5>
               <a href="">Features</a>

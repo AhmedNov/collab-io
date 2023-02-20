@@ -1,64 +1,43 @@
-import React from "react";
-import logo from "../assets/img/logo.svg";
-import "../styles/StyleNavbar.css";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import logo from '../assets/img/logo.svg'
+import "../styles/StyleNavbar.css"
+import {Link} from "react-router-dom";
+import { LinkContainer } from 'react-router-bootstrap'
 
-export const Navbar = () => {
+    
+
+
+function BasicExample() {
   return (
-    <div data-aos="fade-down">
-      <nav className="navbar navbar-expand-lg bg-body-tertiary d-flex ">
-        <div className="container-fluid main-head "data-aos="fade-up">
-          <a className="navbar-brand" href="#"></a>
-          <img src={logo} alt="" />
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Features
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  About
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Pricing
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Blog
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Contact
-                </a>
-              </li>
-            </ul>
-            <div className=" searchButton" >
-              
-              <button className="btn btn-outline-success " type="submit">
+    <Navbar  expand="lg">
+      <Container>
+        <Navbar.Brand href="#home"><img className='logo-nav' src={logo} alt="" /></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse  id="basic-navbar-nav">
+          <Nav className=" justify-content-center me-auto">
+            <Nav.Link className='nav-links' href="#features">Features</Nav.Link>
+            <Nav.Link className='nav-links' href="#about">About</Nav.Link>
+            <Nav.Link className='nav-links' href="#blog">Blog</Nav.Link>
+            <Nav.Link className='nav-links' href="#pricing">Pricing</Nav.Link>
+            <Nav.Link className='nav-links' href="#contact">Contact</Nav.Link>
+            
+            
+          </Nav>
+          <div className=" searchButton" >
+              <LinkContainer to='/signin'>
+              <button className="btn btn-outline-primary " type="submit">
                 Sign up for Beta
               </button>
+              </LinkContainer>
+              
             </div>
-          </div>
-        </div>
-      </nav>
-    </div>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
-};
+}
 
-export default Navbar;
+export default BasicExample;

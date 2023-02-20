@@ -10,8 +10,8 @@ const Collab = () => {
     <div className='collab'data-aos="fade-down">
                <h1>Collab is simple, fast and fun</h1> 
 
-    
-    <div>
+    <div className='row'>
+      <div className='row'>
         {
           collab.map(coll => (
             <CollabCard shekil= {coll.image} basliq={coll.title} govde={coll.body}/>
@@ -22,6 +22,8 @@ const Collab = () => {
         }
         
     </div>
+    </div>
+    
     </div>
   )
 }
