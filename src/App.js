@@ -1,5 +1,5 @@
 
-import React, {useEffect} from 'react';
+import React, {useEffect,useState} from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap'
@@ -19,17 +19,32 @@ import Footer from './components/Footer'
 import { Routes,   Route , Link } from 'react-router-dom';
 import SignIn from './components/page/SignIn';
 import About from './components/page/About';
+import PreLoader from './components/PreLoader';
 
 function App() {
+  const [loading,setLoading] = useState(false);
+  useEffect(()=>{
+    setLoading(true);
+    setTimeout(()=>{
+        setLoading(false)
+    },2000);
+  }, [])
   useEffect(() =>{
-    AOS.init({duration:2000})
+    AOS.init({duration:1500})
   }, [])
 
+  
   return (
     <>
-    
-      
-            <Navbar/>
+
+      {
+        loading 
+        ? <PreLoader/>
+         
+        :
+         <>
+          
+          <Navbar/>
        
         
         
@@ -50,9 +65,11 @@ function App() {
 
     <Integrates/>
 
-    <Footer />
-
-    
+    <Footer /> 
+    </>
+          
+      }
+         
   
     
     
