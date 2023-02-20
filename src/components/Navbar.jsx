@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../assets/img/logo.svg'
 import "../styles/StyleNavbar.css"
-import {Link} from "react-router-dom";
+
 import { LinkContainer } from 'react-router-bootstrap'
 
     
@@ -14,7 +14,8 @@ function BasicExample() {
   return (
     <Navbar  expand="lg">
       <Container>
-        <Navbar.Brand href="#home"><img className='logo-nav' src={logo} alt="" /></Navbar.Brand>
+        <LinkContainer to='/'>
+        <Navbar.Brand href="#home"><img className='logo-nav' src={logo} alt="" /></Navbar.Brand></LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse  id="basic-navbar-nav">
           <Nav className=" justify-content-center me-auto">

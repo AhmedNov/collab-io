@@ -15,10 +15,10 @@ import Collab from './components/Collab';
 import BubbleJob from './components/BubbleJob';
 import Integrates from './components/İntegrates'
 import Footer from './components/Footer'
-import Singin from './components/page/SignIn'
-import { Routes,   Route , Link } from 'react-router-dom';
-import SignIn, {SingIn }from './components/page/SignIn';
 
+import { Routes,   Route , Link } from 'react-router-dom';
+import SignIn from './components/page/SignIn';
+import About from './components/page/About';
 
 function App() {
   useEffect(() =>{
@@ -29,14 +29,15 @@ function App() {
     <>
     
       
-
-       <Navbar  />
+            <Navbar/>
+       
         
         
         <Routes>
-         
-              <Route path='/signin ' element = {SignIn} /> 
-        </Routes>
+                <Route path='/' element={App}/>
+              <Route path='/signin ' element = {<SignIn/>} />
+              <Route path='* '  element={<About/>}/> 
+         </Routes>
       
 
     <FreeTrial />
