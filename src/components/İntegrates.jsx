@@ -196,6 +196,12 @@ const İntegrates = () => {
           disableOnInteraction: false,
         }}
         breakpoints={{
+          500:{
+            
+              slidesPerView: 1,
+              spaceBetween: 20,
+            
+          },
           640: {
             slidesPerView: 1,
             spaceBetween: 20,
