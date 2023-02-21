@@ -19,6 +19,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import SignIn from "./components/page/SignIn";
 import About from "./components/page/About";
 import PreLoader from "./components/PreLoader";
+import Error from "./components/page/Error";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -46,6 +47,7 @@ function App() {
             <Route path="/" element={App} />
             <Route path="/signin " element={<SignIn />} />
             <Route path="/about " element={<About />} />
+            <Route path="/" element={<Error/>}/>
           </Routes>
 
           <FreeTrial />
@@ -60,7 +62,11 @@ function App() {
 
           <Footer />
 
-          {/* <SignIn/> */}
+          
+
+           <Error/> 
+
+           <SignIn/> 
         </>
       }
     </>
