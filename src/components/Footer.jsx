@@ -73,9 +73,9 @@ const Footer = () => {
               <a href=""className='hovers'><BsTelephone/> +1-202-555-0144</a>
               <a href=""className='hovers'><BsGlobe /> Collab.webflow.io</a>
               <div className="d-flex social">
-                <a href="" className='hovers'><FaFacebookF/></a>
+                <a  target='_blank' href="https://www.facebook.com/" className='hovers' ><FaFacebookF/></a>
                 <a href="" className='hovers'><FaInstagram/></a>
-                <a href="" className='hovers'><FaTwitter/></a>
+                <a  target='_blank' href="https://twitter.com/" className='hovers'><FaTwitter/></a>
                 <a href="" className='hovers'><BsGlobe/></a>
               </div>
             </div>
