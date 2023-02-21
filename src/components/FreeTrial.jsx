@@ -23,7 +23,9 @@ export const FreeTrial = () => {
             Stop wasting time with clunky, siloed teamwork. Get every stakeholder on the same page with a design tool that help you work better, faster.
             </p>
             <div className='left-bottom'>
-              <a href='#'>Start your free trial</a>
+              {/* <a href='#'>Start your free trial</a> */}
+              <button className='hovers'>Start your free trial
+                      </button>
               <img src={required} alt="" />
             </div>
             

@@ -32,7 +32,8 @@ const Template2 = ({
              
               
               <div className="learn_more">
-                <a href="#">Learn more</a>
+              <button className='hovers'>Learn More
+                      </button>
               </div>
             </div>
             

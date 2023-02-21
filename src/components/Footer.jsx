@@ -16,21 +16,22 @@ const Footer = () => {
   return (
     <div>
       <div className="challenge" >
-        <div className="d-flex half-1" data-aos="fade-right" data-aos-duration="1500"data-aos-delay="300">
+        <div className="d-flex half-1" data-aos="fade-right" data-aos-duration="1000"data-aos-delay="300">
           <img src={halfpicture} alt="" />
         </div>
-        <div className="challenge-title" data-aos="fade-down" data-aos-duration="1500"data-aos-delay="300">
+        <div className="challenge-title" data-aos="fade-down" data-aos-duration="1000"data-aos-delay="300">
           <h2>
             99.9% teams love Collab.Not convinced you’re one?We love a
             challenge.
           </h2>
           <div className="challenge-bottom">
-            <a href="#">Start your free trial</a>
+          <button className='hovers'>Start your free trial
+                      </button>
             <img src={white} alt="" />
           </div>
         </div>
 
-        <div className="d-flex half-2" data-aos="fade-left" data-aos-duration="1500"data-aos-delay="300">
+        <div className="d-flex half-2" data-aos="fade-left" data-aos-duration="1000"data-aos-delay="300">
           <img src={halfpicture2} alt="" />
         </div>
       </div>
@@ -42,39 +43,39 @@ const Footer = () => {
           <div className="right-footer col-12 col-md-7 d-flex"data-aos="fade-right">
             <div className="  footer-link d-flex flex-column">
               <h5>Quick Links</h5>
-              <a href="" className="footer-a">Features</a>
-              <a href="" className="footer-a">About</a>
-              <a href="" className="footer-a">Pricing</a>
-              <a href="" className="footer-a"> eCommerce</a>
-              <a href="" className="footer-a">Blog</a>
-              <a href="" className="footer-a">Contact</a>
-              <a href="" className="footer-a">Careers</a>
+              <a href=""  className='hovers'>Features</a>
+              <a href="" className='hovers'>About</a>
+              <a href="" className='hovers'>Pricing</a>
+              <a href="" className='hovers'> eCommerce</a>
+              <a href="" className='hovers'>Blog</a>
+              <a href="" className='hovers'>Contact</a>
+              <a href="" className='hovers'>Careers</a>
             </div>
             <div className="footer-link d-flex flex-column">
               <h5>Template</h5>
-              <a href=""className="footer-a">Style Guide</a>
-              <a href=""className="footer-a">Licences</a>
-              <a href=""className="footer-a">Changelog</a>
-              <a href=""className="footer-a">Instructions</a>
-              <a href=""className="footer-a">Sign In</a>
-              <a href=""className="footer-a">Sign Up</a>
-              <a href=""className="footer-a">Forgot Password</a>
-              <a href=""className="footer-a">
+              <a href=""className='hovers'>Style Guide</a>
+              <a href=""className='hovers'>Licences</a>
+              <a href=""className='hovers'>Changelog</a>
+              <a href=""className='hovers'>Instructions</a>
+              <a href=""className='hovers'>Sign In</a>
+              <a href=""className='hovers'>Sign Up</a>
+              <a href=""className='hovers'>Forgot Password</a>
+              <a href=""className='hovers'>
                 Password <br />
                 Protected
               </a>
-              <a href="">404 Page</a>
+              <a href=""className='hovers'>404 Page</a>
             </div>
             <div className="footer-link d-flex flex-column">
               <h5>Get In Touch</h5>
-              <a href=""> <AiOutlineMail/> Support@collab.com</a>
-              <a href=""><BsTelephone/> +1-202-555-0144</a>
-              <a href=""><BsGlobe /> Collab.webflow.io</a>
+              <a href=""className='hovers'> <AiOutlineMail/> Support@collab.com</a>
+              <a href=""className='hovers'><BsTelephone/> +1-202-555-0144</a>
+              <a href=""className='hovers'><BsGlobe /> Collab.webflow.io</a>
               <div className="d-flex social">
-                <a href=""><FaFacebookF/></a>
-                <a href=""><FaInstagram/></a>
-                <a href=""><FaTwitter/></a>
-                <a href=""><BsGlobe/></a>
+                <a href="" className='hovers'><FaFacebookF/></a>
+                <a href="" className='hovers'><FaInstagram/></a>
+                <a href="" className='hovers'><FaTwitter/></a>
+                <a href="" className='hovers'><BsGlobe/></a>
               </div>
             </div>
           </div>

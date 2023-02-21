@@ -178,33 +178,71 @@ const İntegrates = () => {
         </Swiper>
         
       </div>
-      <div className="title-article">
-        <h3 className=""  data-aos="fade-down">Read latest articles of Collab</h3>
-        <div className="img-area row " >
-            <div className="col-12 col-md-4 col-lg-4 mt-3 flex-column" data-aos="fade-down" data-aos-delay="300"><img src={photo1} alt="" />
+
+
+
+<div className="title-article">
+        <h3 className="mb-5"  data-aos="fade-down">Read latest articles of Collab</h3>
+      
+        <Swiper
+        slidesPerView={3}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        loop={true}
+        autoplay={{
+          delay: 1000,
+          disableOnInteraction: false,
+        }}
+        breakpoints={{
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 1  ,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          },
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        
+        <div className="img-area row  " >
+        <SwiperSlide><div className="col-12  mt-3 flex-column" data-aos="fade-down" data-aos-delay="300"><img src={photo1} alt="" />
             <div className="flex-column branding" data-aos="fade-down">
               <p>Branding</p>
               <h5>Branding with personality: <br/>What makes you stand out</h5>
               <div className="line"></div>
               <span className="data"> April 22, 2022 . 5 min read</span>
             </div>
-            </div>
-            <div className="col-12 col-md-4 col-lg-4 mt-3 flex-column"  data-aos="fade-down"data-aos-delay="300"><img src={photo2} alt="" />
+            </div></SwiperSlide>
+        <SwiperSlide> <div className="col-12  mt-3 flex-column"  data-aos="fade-down"data-aos-delay="300"><img src={photo2} alt="" />
             <div className="flex-column busines" data-aos="fade-down">
               <p>Business</p>
               <h5>Is the generic visual brand guide outdated?</h5>
               <div className="line"></div>
               <span className="data"> April 22, 2022 . 8 min read</span>
             </div>
-            </div>
-            <div className="col-12 col-md-4 col-lg-4 mt-3 flex-column"  data-aos="fade-down"data-aos-delay="300"><img src={photo3} alt="" /><div className="flex-column startup" data-aos="fade-down">
+            </div></SwiperSlide>
+        <SwiperSlide><div className="col-12  mt-3 flex-column"  data-aos="fade-down"data-aos-delay="300"><img src={photo3} alt="" /><div className="flex-column startup" data-aos="fade-down">
               <p>Startup</p>
               <h5>30 ads that made our heads turn: Making ads that convert</h5>
               <div className="line"></div>
               <span className="data"> April 22, 2022 . 4 min  read</span>
-            </div></div>
-        </div>
-      </div>
+            </div></div></SwiperSlide>
+         </div>
+     
+      </Swiper>
+            
+           
+            </div> 
+       
       
     </div>
   );

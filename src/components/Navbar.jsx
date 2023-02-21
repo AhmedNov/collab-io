@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../assets/img/logo.svg'
 import "../styles/StyleNavbar.css"
-import { Link } from 'react-router-dom';
+import { Routes, Route, Link } from "react-router-dom";
 import { LinkContainer } from 'react-router-bootstrap'
 import SignIn from './page/SignIn';
 import { Sling as Hamburger } from 'hamburger-react'
@@ -18,22 +18,22 @@ function BasicExample() {
     // <Navbar  expand="lg">
     //   <Container data-aos="zoom-in">
     //     <LinkContainer to='/'>
-    //     <Navbar.Brand href="#home"><img className='logo-nav' src={logo} alt="" /></Navbar.Brand></LinkContainer>
+    //     <Navbar.Brand href="#home"><img classNameName='logo-nav' src={logo} alt="" /></Navbar.Brand></LinkContainer>
     //     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     //     <Navbar.Collapse  id="basic-navbar-nav">
-    //       <Nav className=" justify-content-center me-auto">
-    //         <Nav.Link className='nav-links' href="#features">Features</Nav.Link>
+    //       <Nav classNameName=" justify-content-center me-auto">
+    //         <Nav.Link classNameName='nav-links' href="#features">Features</Nav.Link>
             
-    //         <Nav.Link className='nav-links'  href="#about">About</Nav.Link>
-    //         <Nav.Link className='nav-links' href="#blog">Blog</Nav.Link>
-    //         <Nav.Link className='nav-links' href="#pricing">Pricing</Nav.Link>
-    //         <Nav.Link className='nav-links' href="#contact">Contact</Nav.Link>
+    //         <Nav.Link classNameName='nav-links'  href="#about">About</Nav.Link>
+    //         <Nav.Link classNameName='nav-links' href="#blog">Blog</Nav.Link>
+    //         <Nav.Link classNameName='nav-links' href="#pricing">Pricing</Nav.Link>
+    //         <Nav.Link classNameName='nav-links' href="#contact">Contact</Nav.Link>
             
             
     //       </Nav>
-    //       <div className=" " >
+    //       <div classNameName=" " >
     //           <LinkContainer to='/signin'>
-    //           <button  className="bat  " type="submit">
+    //           <button  classNameName="bat  " type="submit">
     //              <span>Sign up for Beta</span> 
     //           </button>
     //           </LinkContainer>
@@ -42,30 +42,32 @@ function BasicExample() {
     //     </Navbar.Collapse>
     //   </Container>
     // </Navbar>
-    <>
-    <nav class="navbar navbar-expand-lg navbar-light container">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img className='logo-nav' src={logo} alt="" /></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class=""><Hamburger/></span>
+    
+    <> 
+   
+    <nav className="navbar navbar-expand-lg navbar-light container"data-aos="zoom-in">
+  <div className="container-fluid">
+    <a className="navbar-brand" href="#"><img className='logo-nav' src={logo} alt="" /></a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span className=""><Hamburger/></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+    <div className="collapse navbar-collapse justify-content-between" id="navbarNav">
       <div>
-        <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link nav-links " aria-current="page" href="#">Features</a>
+        <ul className="navbar-nav">
+        <li className="nav-item">
+          <a className="nav-link nav-links " aria-current="page" href="#">Features</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link nav-links" href="#">About</a>
+       <li className="nav-item">
+          <Link to="/about"className="nav-link nav-links" > About</Link>
         </li>
-        <li class="nav-item">
-          <a class="nav-link nav-links" href="#">Blog</a>
+        <li className="nav-item">
+          <a className="nav-link nav-links" href="#">Blog</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link nav-links" href="#" >Pricing</a>
+        <li className="nav-item">
+          <a className="nav-link nav-links" href="#" >Pricing</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link nav-links " aria-current="page" href="#">Contact</a>
+        <li className="nav-item">
+          <a className="nav-link nav-links " aria-current="page" href="#">Contact</a>
         </li>
         
       </ul>
@@ -83,7 +85,9 @@ function BasicExample() {
     
   </div>
 </nav>
+ 
     </>
+   
    
   );
 }

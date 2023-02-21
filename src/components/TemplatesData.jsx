@@ -18,7 +18,8 @@ const TemplatesData = ({ basliq, mid, bottom1, bottom2, bottom3, imgLink }) => {
                 <p className="bottom-title">{bottom2}</p>
                 <p className="bottom-title">{bottom3}</p>
                 <div className="learn_more">
-              <a href="#">Learn more</a>
+                <button className='hovers'>Learn More
+                      </button>
             </div>
               </div>
             </div>

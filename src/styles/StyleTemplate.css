@@ -34,10 +34,10 @@
 
 .learn_more{
     display: flex;
-    width: 200px !important;
-    border-radius: 14px;
-    padding: 15px 30px 20px 30px;
-    background: #3F53D8;
+    width:12em;
+   height: 4em;
+    /* padding: 15px 30px 20px 30px; */
+   
     border-color: #3F53D8;
     cursor: pointer;
     justify-content: center;

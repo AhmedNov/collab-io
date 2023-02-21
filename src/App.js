@@ -34,14 +34,15 @@ function App() {
 
   return (
     <>
-      {loading ? (
+      {loading ? 
         <PreLoader />
-      ) : (
+       : 
         <>
        
           <Navbar />
 
           <Routes>
+            
             <Route path="/" element={App} />
             <Route path="/signin " element={<SignIn />} />
             <Route path="/about " element={<About />} />
@@ -61,7 +62,7 @@ function App() {
 
           {/* <SignIn/> */}
         </>
-      )}
+      }
     </>
   );
 }

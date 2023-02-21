@@ -82,18 +82,19 @@
 
 }
 
-.footer-link .footer-a :before{
-    content:'';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 3px;
-    border-radius:25px;
-    background-color:#0c57ec;
-    width: 0%;
-    transition: all .4s ease;
+.footer-link .hovers:hover{
+color:darkblue
+}
+.footer-link .hovers{
+    background: none;
+    height: auto;
+    width: auto;
 }
 
-.footer-link .footer-a :hover::before{
-    width: 100%;
+.title-article .swiper-pagination{
+    margin-top: 10px;
+    position: relative;
+}
+.busines h5{
+    margin-bottom: 39px;
 }
