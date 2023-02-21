@@ -10,6 +10,7 @@ import {BsGlobe } from "react-icons/bs";
 import {FaFacebookF } from "react-icons/fa";
 import {FaInstagram } from "react-icons/fa";
 import {FaTwitter} from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -64,7 +65,7 @@ const Footer = () => {
                 Password <br />
                 Protected
               </a>
-              <a href=""className='hovers'>404 Page</a>
+              <Link to='*' className='hovers'>404 Page</Link>
             </div>
             <div className="footer-link d-flex flex-column">
               <h5>Get In Touch</h5>

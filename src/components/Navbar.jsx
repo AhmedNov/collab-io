@@ -47,7 +47,7 @@ function BasicExample() {
    
     <nav className="navbar navbar-expand-lg navbar-light container"data-aos="zoom-in">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#"><img className='logo-nav' src={logo} alt="" /></a>
+    <Link className="navbar-brand" to="/"><img className='logo-nav' src={logo} alt="" /></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className=""><Hamburger/></span>
     </button>
@@ -61,7 +61,7 @@ function BasicExample() {
           <Link to="/about"className="nav-link nav-links" > About</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link nav-links" href="#">Blog</a>
+         <Link to="/blog"className="nav-link nav-links">  Blog</Link> 
         </li>
         <li className="nav-item">
           <a className="nav-link nav-links" href="#" >Pricing</a>
